@@ -1,0 +1,6 @@
+apiVersion: networking.internal.knative.dev/v1alpha1
+kind: ClusterDomainClaim
+metadata:
+  name: helloworld-go.default.172.18.255.200.sslip.io
+spec:
+  namespace: default
