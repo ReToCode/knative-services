@@ -1,0 +1,10 @@
+apiVersion: serving.knative.dev/v1alpha1
+kind: DomainMapping
+metadata:
+  name: helloworld.10.89.0.200.sslip.io
+  namespace: default
+spec:
+  ref:
+    name: helloworld
+    kind: Service
+    apiVersion: serving.knative.dev/v1
